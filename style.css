@@ -14,17 +14,28 @@ h3{
 
 }
 
-a {
-
+a{
+    color:white;
+    text-decoration: none;
+    
 }
+
+/* mouse over link */
+a:hover {
+    color: black;
+  }
 
 li{
     float: right;
     padding: 0% 1%;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    color: white;
+
 
 }
+
+
 
 ul{
     list-style-type: none;
@@ -33,9 +44,12 @@ ul{
 
 .navbar{
     list-style-type: none;
-    background-color: darkgrey;
     padding: 3%;
-
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    transform: translate(-10%, -10%);
+    width:80%;
 }
 
 
@@ -67,11 +81,12 @@ ul{
 
 .name-over-img{
     position: absolute;
-    top: 50%;
-    left: 30%;
+    top: 30%;
+    left: 40%;
     transform: translate(-10%, -10%);
-    font-family: 'Work Sans', sans-serif;
-    font-size:12em;
+    font-family: 'Roboto', sans-serif;
+    font-size:7em;
+    color: white;
 
 }
 
