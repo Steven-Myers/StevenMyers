@@ -1,0 +1,81 @@
+body{
+    width:100%;
+    margin: 0px;
+}
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+a {
+
+}
+
+li{
+    float: right;
+    padding: 0% 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.navbar{
+    list-style-type: none;
+    background-color: darkgrey;
+    padding: 3%;
+
+}
+
+
+
+.nav-links{
+
+}
+
+.section-titles{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    color: red;
+    background-color: none;
+
+
+}
+
+.name-large{
+    font-family: 'Work Sans', sans-serif;
+    font-size:15em;
+
+}
+
+.name-small{
+    font-family: 'Work Sans', sans-serif;
+    font-size:15em;
+
+}
+
+.name-over-img{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-10%, -10%);
+    font-family: 'Work Sans', sans-serif;
+    font-size:12em;
+
+}
+
+.image-container{
+    width:100%;
+    height:100%;
+}
