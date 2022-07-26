@@ -1,0 +1,127 @@
+/* #region  H E A D E R */
+/* <copyright file="styles.css" company="MicroCODE Incorporated">Copyright © 2022 MicroCODE Incorporated Troy, MI</copyright><author>Timothy J. McGuire</author> */
+/* #region  P R E A M B L E */
+/* #region  D O C U M E N T A T I O N */
+/*
+ *      Title:    MIT xPRO: WEEK 8  - Eyes Exercise
+ *      Module:   Styles (MicroCODE:styles.css)
+ *      Project:  MicroCODE Common Library
+ *      Customer: Internal
+ *      Creator:  MicroCODE Incorporated
+ *      Date:     March 2022
+ *      Author:   Timothy J McGuire
+ *
+ *      Designed and Coded: 2022 MicroCODE Incorporated
+ *
+ *      This software and related materials are the property of
+ *      MicroCODE Incorporated and contain confidential and proprietary
+ *      information. This software and related materials shall not be
+ *      duplicated, disclosed to others, or used in any way without the
+ *      written of MicroCODE Incorported.
+ *
+ *
+ *      DESCRIPTION:
+ *      ------------
+ *
+ *      This module implements the CSS code for the MIT xPRO: WEEK 8  - Eyes Exercise.
+ *
+ *
+ *      REFERENCES:
+ *      -----------
+ *
+ *      1. MIT xPRO: WEEK 8  - Eyes Exercise
+ *         https://student.emeritus.org/courses/3291/assignments/166906?module_item_id=944587
+ *
+ *
+ *      DEMONSTRATION VIDEOS:
+ *      --------------------
+ *
+ *      1. ...
+ *
+ *
+ *
+ *      MODIFICATIONS:
+ *      --------------
+ *
+ *  Date:         By-Group:   Rev:     Description:
+ *
+ *  07-Mar-2022   TJM-MCODE  {0001}    New file for MIT xPRO assignment, for sharing in my Portfolio.
+ *
+ *
+ */
+
+/* #endregion */
+/* #endregion */
+/* #endregion */
+
+/* #region  C S S */
+/* #region  S T Y L E S */
+
+/* #region  I D  -- highest priority */
+
+#id-name {
+
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* #endregion */
+
+/* #region  C L A S S -- lower priority */
+
+.eyes {
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye {
+
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball {
+
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+/* #endregion */
+
+/* #region  T A G -- lowest priority */
+
+h1 {
+
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: dimgray;
+}
+
+/* #endregion */
+
+/* #endregion */
+/* #endregion */
