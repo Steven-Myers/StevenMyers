@@ -143,11 +143,6 @@ ul{
     height:8%
 }
 
-.about-img{
-    float: left;
-    width:10%;
-    height:10%
-}
 
 .project-section{
     background-color:#618685;
@@ -238,4 +233,26 @@ ul{
     background-color: darkgrey;
     height:30px;
     width:100%
+}
+
+.about-content{
+    color:rgb(213, 213, 213);
+    font-size:1em;
+    text-align:justify;
+    margin:5%
+}
+
+.about-img{
+    float: left;
+    width:10%;
+    height:10%;
+    margin:1%
+
+}
+
+.about-title{
+    color:silver;
+    font-size:6em;
+    text-align:center;
+    margin:1%
 }
